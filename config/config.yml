@@ -1,0 +1,11 @@
+defaults: &defaults
+  isbndb_key: BR3PPX5U
+
+development:
+  <<: *defaults
+
+test:
+  <<: *defaults
+
+production:
+  <<: *defaults
